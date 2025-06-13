@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myfont1;
+}
+@font-face {
+    font-family: myfont1;
+    src: url("../Fonts/Montserrat-VariableFont_wght.ttf");
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    /* background-color: red; */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: #fff;
+    padding: 15px 25px;
+    margin-left: 5px;
+    font-size: 22px;
+    border-radius: 50px;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 55px 60px;
+}
+#intro h1{
+    font-size: 145px;
+    line-height: 130px;
+    letter-spacing: -3px;
+    font-weight: 600;
+    
+}
+#place{
+    margin: 40x;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3, #place h4{
+    font-size: 30px;
+    font-weight: 600;
+    /* color: red; */
+}
+#hero-img{
+    height: 80%;
+    width: 100%;
+    background-image: url("../img/anandmishra.jfif");
+    object-position: top;
+    background-size: cover;
+}
